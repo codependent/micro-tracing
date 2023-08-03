@@ -35,7 +35,7 @@ dependencies {
     runtimeOnly("ch.qos.logback:logback-classic")
     annotationProcessor("io.micronaut.validation:micronaut-validation-processor")
     implementation("io.micronaut.validation:micronaut-validation")
-
+    runtimeOnly("org.yaml:snakeyaml")
     runtimeOnly("com.fasterxml.jackson.module:jackson-module-kotlin")
 
 }
