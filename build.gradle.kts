@@ -38,6 +38,8 @@ dependencies {
     runtimeOnly("org.yaml:snakeyaml")
     runtimeOnly("com.fasterxml.jackson.module:jackson-module-kotlin")
 
+    implementation("io.micronaut:micronaut-jackson-databind")
+
 }
 
 
